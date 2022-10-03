@@ -844,7 +844,7 @@ a:hover {
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  /* margin-left: 1rem; */
 }
 
 @media (min-width: 767px) {
@@ -1526,8 +1526,21 @@ footer .credits a {
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
+.about-info{
 
-
+  /* margin-left: 1rem; */
+}
+.lead{
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: justify;
+  /* color: black; */
+}
+#myInfo{
+  font-weight: 400;
+  font-size: 1.1rem;
+  /* color: black; */
+}
 @media (min-width: 768px) {
   .contact {
     padding: 3rem;
